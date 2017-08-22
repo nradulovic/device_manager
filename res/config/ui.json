@@ -1,0 +1,14 @@
+{
+  "default_win_hsize": 1024,
+  "default_win_vsize": 768,
+  "spacing": 6,
+  "table": { 
+    "Name":             {"id": 0, "handle": "name"},
+    "Base":             {"id": 1, "handle": "base"},
+    "Serial No":        {"id": 2, "handle": "serial"},
+    "Build date":       {"id": 3, "handle": "build"},
+    "System Version":   {"id": 4, "handle": "sw_ver"},
+    "Firmware Version": {"id": 5, "handle": "fw_ver"},
+    "Hardware Version": {"id": 6, "handle": "hw_ver"}
+  }
+}

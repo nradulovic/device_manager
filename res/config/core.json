@@ -1,0 +1,26 @@
+{
+  "product": "Python generic application",
+  "version": 3.1,
+  "app name": "Device manager",
+  "short name": "test_qt5",
+  "log level": "debug",
+  "releaseDate": "2014-06-25T00:00:00.000Z",
+  "demo": true,
+  "developers": {
+    "id": 1,
+    "name": "Nenad Radulovic",
+    "phones": {
+      "mobile": "065 8 502 502"
+    },
+    "email": [
+      "nenad.b.radulovic@gmail.com",
+      "nenad.radulovic@netico-group.com"
+    ]
+  },
+  "SSHClient": "Paramiko",
+  "DBClient": "FTPClient",
+  "FTP server ip": "192.168.2.90",
+  "FTP server path": "production",
+  "FTP server user": "netico",
+  "FTP server pass": "netico"
+}
