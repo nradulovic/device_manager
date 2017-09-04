@@ -27,3 +27,9 @@ Additional requirements:
     sudo zypper install python-gobject python3-gobject gtk3
 
    The project was tested with PyGObject version 3.20.1
+
+Starting the application
+========================
+
+Execute shell script ./device\_manager.sh
+
