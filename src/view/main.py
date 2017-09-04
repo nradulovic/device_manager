@@ -109,11 +109,11 @@ class PurgatoryState(fsm.State):
                     instance.destroy()
 
     def on_splash(self, event):
-        self.sm.client = event.producer
+        self.sm.client = event.owner
         return SplashState
 
     def on_main(self, event):
-        self.sm.client = event.producer
+        self.sm.client = event.owner
         return MainWindowState
 
 

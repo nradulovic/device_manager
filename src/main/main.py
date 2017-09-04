@@ -43,7 +43,7 @@ class Operating(fsm.State):
         return Terminated
 
     def on_exception(self, event):
-        self.sm.rm.register(event)
+        MainFSM.add_resource(event)
         return ExceptionState
 
     def on_view_delete(self, event):
